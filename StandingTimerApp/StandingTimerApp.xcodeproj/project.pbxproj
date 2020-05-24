@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		94EDD2C60FBA8B3F52E0AFEE /* Pods_StandingTimerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5274A57584D27658B7472F65 /* Pods_StandingTimerAppTests.framework */; };
 		C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */; };
-		C9860002247A293000E1FAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9860001247A293000E1FAAD /* Assets.xcassets */; };
 		C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9860003247A293000E1FAAD /* LaunchScreen.storyboard */; };
 		C9860010247A293000E1FAAD /* StandingTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */; };
 		C986001B247A2F9B00E1FAAD /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C986001A247A2F9B00E1FAAD /* Image.xcassets */; };
@@ -43,7 +42,6 @@
 		61DB79F98A4FB749A02AD4A2 /* Pods-StandingTimerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerAppTests.release.xcconfig"; path = "Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6A625CDA9102BDC1C24BD2FD /* Pods-StandingTimerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C4601563820B2016CBA1412 /* Pods_StandingTimerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandingTimerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9860001247A293000E1FAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9860004247A293000E1FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9860006247A293000E1FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C986000B247A293000E1FAAD /* StandingTimerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandingTimerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +118,23 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		C986003C247A4BED00E1FAAD /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C986003D247A4BF600E1FAAD /* SettingTimer */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C986003D247A4BF600E1FAAD /* SettingTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */,
+				C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */,
+			);
+			path = SettingTimer;
+			sourceTree = "<group>";
+		};
 		C986FFEC247A292E00E1FAAD = {
 			isa = PBXGroup;
 			children = (
@@ -143,13 +158,11 @@
 		C986FFF7247A292E00E1FAAD /* StandingTimerApp */ = {
 			isa = PBXGroup;
 			children = (
+				C986003C247A4BED00E1FAAD /* Module */,
 				C986003A247A3E1200E1FAAD /* R.generated.swift */,
 				C986002A247A30B600E1FAAD /* Fonts */,
 				C986FFF8247A292E00E1FAAD /* AppDelegate.swift */,
 				C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */,
-				C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */,
-				C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */,
-				C9860001247A293000E1FAAD /* Assets.xcassets */,
 				C9860003247A293000E1FAAD /* LaunchScreen.storyboard */,
 				C9860006247A293000E1FAAD /* Info.plist */,
 				C986001A247A2F9B00E1FAAD /* Image.xcassets */,
@@ -262,7 +275,6 @@
 				C986001B247A2F9B00E1FAAD /* Image.xcassets in Resources */,
 				C9860032247A30D600E1FAAD /* mplus-2p-black.ttf in Resources */,
 				C9860035247A30DE00E1FAAD /* mplus-2p-light.ttf in Resources */,
-				C9860002247A293000E1FAAD /* Assets.xcassets in Resources */,
 				C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */,
 				C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */,
 				C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */,
