@@ -7,6 +7,7 @@ target 'StandingTimerApp' do
 
   # Pods for StandingTimerApp
   pod 'LGButton'
+  pod 'R.swift'
 
   target 'StandingTimerAppTests' do
     inherit! :search_paths

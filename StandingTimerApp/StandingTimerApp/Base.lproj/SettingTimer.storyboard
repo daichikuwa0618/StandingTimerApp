@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -17,51 +17,51 @@
             <objects>
                 <viewController storyboardIdentifier="SettingTimer" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SettingTimerViewController" customModule="StandingTimerApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="5MV-jA-2Hv">
-                                <rect key="frame" x="40" y="84" width="334" height="215"/>
+                                <rect key="frame" x="40" y="84" width="295" height="192"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="13n-sw-Tdb">
-                                        <rect key="frame" x="0.0" y="0.0" width="161" height="215"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="141.66666666666666" height="192"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C73-Dy-jix">
-                                                <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="141.66666666666666" height="16.333333333333332"/>
                                                 <fontDescription key="fontDescription" name="mplus-2p-bold" family="M+ 2p" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="standing" translatesAutoresizingMaskIntoConstraints="NO" id="rsO-Qe-qHd">
-                                                <rect key="frame" x="0.0" y="20" width="161" height="161"/>
+                                                <rect key="frame" x="0.0" y="16.333333333333329" width="141.66666666666666" height="141.66666666666669"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="rsO-Qe-qHd" secondAttribute="height" multiplier="1:1" id="o1c-v6-m4p"/>
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fdg-La-m2M">
-                                                <rect key="frame" x="0.0" y="181" width="161" height="34"/>
+                                                <rect key="frame" x="0.0" y="158" width="141.66666666666666" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vXk-xD-YIW">
-                                        <rect key="frame" x="173" y="0.0" width="161" height="215"/>
+                                        <rect key="frame" x="153.66666666666663" y="0.0" width="141.33333333333337" height="192"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sitting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hu-K5-hxl">
-                                                <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="141.33333333333334" height="16.333333333333332"/>
                                                 <fontDescription key="fontDescription" name="mplus-2p-bold" family="M+ 2p" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sitting" translatesAutoresizingMaskIntoConstraints="NO" id="xDX-Y0-J17">
-                                                <rect key="frame" x="0.0" y="20" width="161" height="161"/>
+                                                <rect key="frame" x="0.0" y="16.333333333333329" width="141.33333333333334" height="141.66666666666669"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xDX-Y0-J17" secondAttribute="height" multiplier="1:1" id="svm-iF-xjQ"/>
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Js-T5-RK2">
-                                                <rect key="frame" x="0.0" y="181" width="161" height="34"/>
+                                                <rect key="frame" x="0.0" y="158" width="141.33333333333334" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -72,9 +72,26 @@
                                     <constraint firstItem="vXk-xD-YIW" firstAttribute="width" secondItem="13n-sw-Tdb" secondAttribute="width" id="Gtb-s5-dFo"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TZV-5X-Kjq" customClass="LGButton" customModule="LGButton">
+                                <rect key="frame" x="87.666666666666686" y="316" width="200" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="F6B-pg-U8y"/>
+                                    <constraint firstAttribute="width" constant="200" id="ZcS-63-yJz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="fullyRoundedCorners" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Start!"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="TZV-5X-Kjq" firstAttribute="top" secondItem="5MV-jA-2Hv" secondAttribute="bottom" constant="40" id="P5V-Vu-0oL"/>
+                            <constraint firstItem="TZV-5X-Kjq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QCv-Sf-igQ"/>
                             <constraint firstItem="5MV-jA-2Hv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="U48-ab-N5E"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5MV-jA-2Hv" secondAttribute="trailing" constant="40" id="YwQ-DE-d97"/>
                             <constraint firstItem="5MV-jA-2Hv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ZFP-AH-Ell"/>
@@ -88,7 +105,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="sitting" width="128" height="128"/>
-        <image name="standing" width="128" height="128"/>
+        <image name="sitting" width="231.66667175292969" height="266.66665649414062"/>
+        <image name="standing" width="266.66665649414062" height="266.66665649414062"/>
     </resources>
 </document>

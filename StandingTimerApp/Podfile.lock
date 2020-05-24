@@ -1,16 +1,24 @@
 PODS:
   - LGButton (1.1.6)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
 
 DEPENDENCIES:
   - LGButton
+  - R.swift
 
 SPEC REPOS:
   trunk:
     - LGButton
+    - R.swift
+    - R.swift.Library
 
 SPEC CHECKSUMS:
   LGButton: 9f0a7f9d3030e3f504108342f6b66d64a429371b
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
 
-PODFILE CHECKSUM: 6376b2cbd7b2ae1563700e687559cf1e937a40e9
+PODFILE CHECKSUM: 2706830b62fefbe1dede1df9b8b4813770c744a8
 
 COCOAPODS: 1.9.1

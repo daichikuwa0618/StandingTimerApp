@@ -6,44 +6,101 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F81301507BDC78889669A641852E3BFE /* Build configuration list for PBXAggregateTarget "R.swift" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4C96BD147A28C219742913509A3A6065 /* PBXTargetDependency */,
+			);
+			name = R.swift;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		008B2A13D8D7CA35B9BD70676D147BAD /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB728B89E474B00E040071D645C3A3ED /* themify.ttf */; };
-		06117D18554D3BD2C4D581DD3ED76AD5 /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C87AF22E4D7F5F40D7EE2FEA5BD640 /* FontOpenic.swift */; };
-		0B620FC0E897E491429E1DE603E84842 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DBF80E3539F7FB60745CA4577FACBD9 /* FontAwesome.ttf */; };
-		10CDE1E6E1EB050D376A90122DF596D3 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90F659AA112ACEE8DB189C4BA369B56B /* open-iconic.ttf */; };
-		116FDB8D280B50B3E12CEB7CA626A905 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17DC7C8ABB65E809591ADE9F9AC783 /* FontAwesome.swift */; };
-		158377F7759475572908B0AD1ACDD6E6 /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C6C0EAD85E3BBD1A8E4D519109F090 /* FontOct.swift */; };
+		008B2A13D8D7CA35B9BD70676D147BAD /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C42601B3622E79224CE64CD41D0C3D45 /* themify.ttf */; };
+		0531D2ECFAED1869832D1960366BF51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		06117D18554D3BD2C4D581DD3ED76AD5 /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8936D01245D12183DCC8D53C0AA0FFA /* FontOpenic.swift */; };
+		085E1345CDD6E0200D5F926CF4E4C081 /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A613E22DCD9FC3ABB01654BDC0081E /* ReuseIdentifierProtocol.swift */; };
+		0A0218B7E7032F88E95372A33D0E59FA /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1047F68926062B12A931DCCED124159 /* StoryboardSegueIdentifierProtocol.swift */; };
+		0B620FC0E897E491429E1DE603E84842 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED8C33E5D78B787FDBB2E43E8C7C7900 /* FontAwesome.ttf */; };
+		10CDE1E6E1EB050D376A90122DF596D3 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D74705A290C8F4C056F86A1A509B5A /* open-iconic.ttf */; };
+		116FDB8D280B50B3E12CEB7CA626A905 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD1AE6C8D20DE8D9A1597F22C6AE91 /* FontAwesome.swift */; };
+		13461A2FE7D1733253DDAAE91F5133A7 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39F626CECE8054763EE639B4717A7 /* UICollectionView+ReuseIdentifierProtocol.swift */; };
+		158377F7759475572908B0AD1ACDD6E6 /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C611EF1D1757DF9C7E0F7EE1683506 /* FontOct.swift */; };
+		2190C724BFC6EBDB60D55F429C30CA68 /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384626098A8A6A036B8F11CB45EA32C /* UIImage+ImageResource.swift */; };
+		25B099B6B462DD4CED74173710737FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		273C8549B316E7A19B65447D08392FCB /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D019308326E8C5C471E20248B3B73 /* UINib+NibResource.swift */; };
+		28F6DC2DB83FA6A599F2731697A093F1 /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BFA81DF807F9558D2D4FD4A001718 /* UIViewController+NibResource.swift */; };
 		383DE6D599012BD0C46619730E05E4D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3B2FA2FD0C59AF348BC487EB7C2477AB /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C10857AC89D6ABCE3E2D6D24DAF8 /* FontLoader.swift */; };
-		4A76FB7C82C6D27E2218F56EB90F9D28 /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25913690DAC475B37D706CBB01130EAB /* map-icons.ttf */; };
-		4D8C3DD2C233267CC1CB90F8C41A2B60 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0A488336FF126A324A37C67A092EB3 /* Ionicons.ttf */; };
+		3A9994CF8E886BB1583C6983E7B50A1B /* Pods-StandingTimerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE741ED129AC78483A1FDCA1C2701F8 /* Pods-StandingTimerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2FA2FD0C59AF348BC487EB7C2477AB /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4542EA794739F1FD8DC5895AB0070E /* FontLoader.swift */; };
+		418F6F68F387AE0ACE8F5CB02B0F0A4C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E7E05BFFA83A22F8F14504646846F /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+		4A76FB7C82C6D27E2218F56EB90F9D28 /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9D5F2468007A19186455E1C30A2C4 /* map-icons.ttf */; };
+		4D8C3DD2C233267CC1CB90F8C41A2B60 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C330271111D04DD9AA8EE174FA237F6 /* Ionicons.ttf */; };
 		51D96AF204E03D909BE4514EBEB41015 /* Pods-StandingTimerAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AF4AF5963E3F1A8486DBB9E53AE879 /* Pods-StandingTimerAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		559EFA708395041AF9D9F20CB68373DB /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A275B3A285F477A135778BD185B9D6 /* FontMap.swift */; };
-		5DD436522AA643D435BBB56532398C5C /* LGButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BEA02043D5B17C53C06223606AFAFC /* LGButton.xib */; };
-		6F312DB0B6D9FD711696D2C3425E8F41 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB93E2303A4534C18998BCE625B5C3EE /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7071BCA8E966F70F37E500C32EE36886 /* Pods-StandingTimerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280F13CF09B804C8AF50AF6E8FA553FE /* Pods-StandingTimerApp-dummy.m */; };
-		711615F123BD7D66D38034DD6F003120 /* Pods-StandingTimerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE741ED129AC78483A1FDCA1C2701F8 /* Pods-StandingTimerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559EFA708395041AF9D9F20CB68373DB /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB45226E624B115C45ACEF0825ECDAC /* FontMap.swift */; };
+		5B5D6303E6BD4A611F64D519A76B6849 /* Data+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D075F4248840CFBFCAB13B502471F86 /* Data+FileResource.swift */; };
+		5DD436522AA643D435BBB56532398C5C /* LGButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343EFFF59EE36AD827F6DA5593BEE3CD /* LGButton.xib */; };
+		680AEC5E7C049F327CD07A09642E14CC /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7568E69E631FA1F3F6D942DAC0E12F4A /* FileResource.swift */; };
+		6F312DB0B6D9FD711696D2C3425E8F41 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C640B27785F0888E5A801DA238653ACE /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B273E749EEA83662770BC064B232E4 /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6C78E0F417A66D2A8553697A03911 /* UITableView+ReuseIdentifierProtocol.swift */; };
+		787C2D5A903E84974D32122E3BC7271F /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E26EB58B61D4C575570319CB4906A /* NibResource.swift */; };
+		78FEB707F4316AB0B6DAC1B0A54782CE /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5742DE31AC75D2AD07435B7986BCF3C /* UIStoryboard+StoryboardResource.swift */; };
+		7C6728F02A59EF3FD0B8D5BA464A2E00 /* Bundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B681A6661B12308A523DDCFD3321152 /* Bundle+FileResource.swift */; };
+		7D7EBD23329B0DEF17CFC16CC610B187 /* R.swift.Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1964CD324A825DD6890A6ACE50D660 /* R.swift.Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		814AB011AC7AE1DC5004347FD148A77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		97AD6F24F3B06BD613C6208F2184E74A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3F9D4C8D16BB4E89EAB8C267B92982 /* MaterialIcons-Regular.ttf */; };
-		99957B690912720394FD9EA8E64221C5 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF47E6D7656F4D640839100AA599BA /* SwiftIconFont.swift */; };
+		833F08FCFFEB5655316F591B65BE0745 /* R.swift.Library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88627705153AE5525F0940E7D69F66E /* R.swift.Library-dummy.m */; };
+		8C58EEF353181356477F0633458B0E6D /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0DB645FF827D59CF74120C470774CD /* StringResource.swift */; };
+		97AD6F24F3B06BD613C6208F2184E74A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA1DB57F49B7670F803B9C1D98EA4687 /* MaterialIcons-Regular.ttf */; };
+		99957B690912720394FD9EA8E64221C5 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F41789BDB5F0ED05B16FFC925833C /* SwiftIconFont.swift */; };
 		9C6E4F9EA6C82B6FB4DC1940C56A0C82 /* Pods-StandingTimerAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D5CC61999C9B935C93FC2AFC22C2AF /* Pods-StandingTimerAppTests-dummy.m */; };
-		A34A98DD62B110BD2DFAD832FE42DC45 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19C5A267935408AE327BBC08BEA817 /* SwiftIconLabel.swift */; };
-		BFB6309660473CE20E1F98165D2190D2 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BCF6138F17B6B8563F296484E55127 /* LGButton-dummy.m */; };
-		C16C9FFF0BBEF2523F89D5CEC3A51CA7 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AD8BAB3D5090AC4A3796F50EB03261 /* FontIon.swift */; };
-		D7C5DEB56E431931836C74EA0446A3DA /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8D78095FAD13600E3392AAA3FEAE6 /* FontThemify.swift */; };
-		D8F41764303BF5E5559E5A3EA1DD4682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E04E162655F36D1EDAD8F58868BE3447 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA141D1F064A320E34D1DAA818787A5 /* LGButton.swift */; };
-		F2ED4AC1567C9E3D31486B3AB8B9E1CB /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23C6247BD16DBAD5EC89116163EFE74C /* octicons.ttf */; };
-		FA0FB5AA52DE609FFCA1A84D791E37DC /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4904816F98B5C8B096F4A03AE2F1A071 /* FontMaterial.swift */; };
+		9F2F94EFB17237C6156DA668CB5A151A /* UIColor+ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B92884250A235062E51614F82E0C0 /* UIColor+ColorResource.swift */; };
+		A34A98DD62B110BD2DFAD832FE42DC45 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4B76BEB07E2FCDDF45D4DC55AE246 /* SwiftIconLabel.swift */; };
+		A372DEE1A3AFC1D2F84B90AE14EED4BA /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F8979A0DF9877AA9D62AA36C98DF2 /* NibResource+UIKit.swift */; };
+		AD1FD4609566517C6973D925E621A80B /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1EE00E74360DB57D430A76C80AD59A /* StoryboardResource.swift */; };
+		B1E2FA42DF4AC1C67A92CA1E1C060A33 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA09AC48A7188D0BEE461909E4DD0E0 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		B2A5CE8CD682CB685687143831B6B240 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C919891165FE93A843DAA89C83FB9FD3 /* Validatable.swift */; };
+		B41DF244ABE936F746A29A4B001E50D3 /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945BDBCBFA6D6D0E18DBAE0FB1434642 /* StoryboardResourceWithInitialController+UIKit.swift */; };
+		B5A4512E966A04C9477A257142745DD5 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A34250637B14B491FB285AA69C7FD /* ImageResource.swift */; };
+		BC943CA2CF08DB3B4D23C7273596624C /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DED42C156D60032861BB7ACAD09734 /* Identifier.swift */; };
+		BFB6309660473CE20E1F98165D2190D2 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7440606A4037953D488009A716D9329A /* LGButton-dummy.m */; };
+		C16C9FFF0BBEF2523F89D5CEC3A51CA7 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D18F9910DDAE35A8BB0AD3635848D /* FontIon.swift */; };
+		CEB6718FABA6AFE7E2A2E26D341A6CD7 /* Pods-StandingTimerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280F13CF09B804C8AF50AF6E8FA553FE /* Pods-StandingTimerApp-dummy.m */; };
+		D7C5DEB56E431931836C74EA0446A3DA /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE69A2480824A4ACBD83FCB1B6AF76 /* FontThemify.swift */; };
+		DDCCDA0CC4F6901364FFA98C9D878CF0 /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7EB0F6E7DAE81995CBD7D369E5373 /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
+		E04E162655F36D1EDAD8F58868BE3447 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ABB3BDBE8AD51DA06EB2BBEE5DE87 /* LGButton.swift */; };
+		E2E23A0BA2E6DECE6B80040989C81C9D /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38CBB311D545B74ACEDD5A5813AC4B6 /* FontResource.swift */; };
+		EDB09FEF14F948C58491AD459C55829C /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BF1F3DBDDA48B9F4A1B4FC99FA9092 /* UIFont+FontResource.swift */; };
+		EDCFC5B0AD3CA4514BA167968CC3FCE1 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B45CA40808A2DA78988C6022950DD /* ColorResource.swift */; };
+		EE9C49ECB0513F8E45259AE810731A42 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F4F077631A7E43A94541AEC5A21F1 /* StoryboardViewControllerResource.swift */; };
+		F2ED4AC1567C9E3D31486B3AB8B9E1CB /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1DC4A5D04219CBDE8B4227F8BDCAEB /* octicons.ttf */; };
+		FA0FB5AA52DE609FFCA1A84D791E37DC /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBE7F81EAFBFBD8165110EBBCA596AD /* FontMaterial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48C35182AB48B3E1C43EFCA59B663D7D /* PBXContainerItemProxy */ = {
+		1F0ACA2E2CAC4C39619D3CD6F4CDA62F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD999FE212F29E29DEEA0A85E1DC4D4E;
-			remoteInfo = LGButton;
+			remoteGlobalIDString = B12748D8506CB48696BD90F2CA4F4E38;
+			remoteInfo = R.swift.Library;
+		};
+		464947F175805C48F303C877BB14DDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12748D8506CB48696BD90F2CA4F4E38;
+			remoteInfo = R.swift.Library;
+		};
+		60CB98B809A0A4ADE198794C5DEC3B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230984053C6652DFF510F450F21C5CF7;
+			remoteInfo = R.swift;
 		};
 		80CD4DAD89C7C4ED7CA56AD43F8766FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,60 +109,120 @@
 			remoteGlobalIDString = 87AB16F7B313F7D6D23D25D484F66332;
 			remoteInfo = "Pods-StandingTimerApp";
 		};
+		D0DA6EE6C262A36A7049E4665274F985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD999FE212F29E29DEEA0A85E1DC4D4E;
+			remoteInfo = LGButton;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041A34250637B14B491FB285AA69C7FD /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Library/Core/ImageResource.swift; sourceTree = "<group>"; };
+		0B7A5ED6E1109DD4331721382F9647B8 /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGButton.modulemap; sourceTree = "<group>"; };
+		0BBE7F81EAFBFBD8165110EBBCA596AD /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
+		0BC7EB0F6E7DAE81995CBD7D369E5373 /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		0D9BC22950AFDC990869F1FA98200597 /* Pods-StandingTimerAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StandingTimerAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15FB93FAE4DA44BE68098AB78204DE66 /* LGButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.release.xcconfig; sourceTree = "<group>"; };
-		1F0A488336FF126A324A37C67A092EB3 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		16FF3CFC2B12048B335DF4A02992488B /* LGButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGButton-Info.plist"; sourceTree = "<group>"; };
+		182D18F9910DDAE35A8BB0AD3635848D /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
+		18C611EF1D1757DF9C7E0F7EE1683506 /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
+		1AB45226E624B115C45ACEF0825ECDAC /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
+		1C330271111D04DD9AA8EE174FA237F6 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		20B78417E1C6BAE053DE40594B176BC3 /* R.swift.Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.debug.xcconfig; sourceTree = "<group>"; };
 		2318B5769F3FEE00697EF5A7679BDF67 /* Pods-StandingTimerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StandingTimerApp.modulemap"; sourceTree = "<group>"; };
-		23C6247BD16DBAD5EC89116163EFE74C /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
-		25913690DAC475B37D706CBB01130EAB /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
+		276BFA81DF807F9558D2D4FD4A001718 /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "Library/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
 		280F13CF09B804C8AF50AF6E8FA553FE /* Pods-StandingTimerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StandingTimerApp-dummy.m"; sourceTree = "<group>"; };
-		29A5C10857AC89D6ABCE3E2D6D24DAF8 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
 		2CE741ED129AC78483A1FDCA1C2701F8 /* Pods-StandingTimerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StandingTimerApp-umbrella.h"; sourceTree = "<group>"; };
+		2DF9D5F2468007A19186455E1C30A2C4 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
 		2E1C1EED263F8D14E24F6C97736F23B5 /* Pods_StandingTimerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StandingTimerApp.framework; path = "Pods-StandingTimerApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4542EA794739F1FD8DC5895AB0070E /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
 		2E86D570DB3FC95316A56927E8C05D3B /* Pods-StandingTimerAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StandingTimerAppTests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		338B92884250A235062E51614F82E0C0 /* UIColor+ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+ColorResource.swift"; path = "Library/UIKit/UIColor+ColorResource.swift"; sourceTree = "<group>"; };
+		343EFFF59EE36AD827F6DA5593BEE3CD /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
 		3623F1C1D582BCF908FFD069191CDC75 /* Pods-StandingTimerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandingTimerAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		4904816F98B5C8B096F4A03AE2F1A071 /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
+		3FB4B76BEB07E2FCDDF45D4DC55AE246 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
+		409D019308326E8C5C471E20248B3B73 /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
+		4E1F8979A0DF9877AA9D62AA36C98DF2 /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
 		4E5F46098A541BC95DD544A8741E7094 /* Pods-StandingTimerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandingTimerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		52BEA02043D5B17C53C06223606AFAFC /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
-		5CA141D1F064A320E34D1DAA818787A5 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
+		5B681A6661B12308A523DDCFD3321152 /* Bundle+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FileResource.swift"; path = "Library/Foundation/Bundle+FileResource.swift"; sourceTree = "<group>"; };
+		5D075F4248840CFBFCAB13B502471F86 /* Data+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileResource.swift"; path = "Library/Foundation/Data+FileResource.swift"; sourceTree = "<group>"; };
+		5D1EE00E74360DB57D430A76C80AD59A /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Library/Core/StoryboardResource.swift; sourceTree = "<group>"; };
 		5D695A921FC0EFD33C5A734326E0B910 /* Pods_StandingTimerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StandingTimerAppTests.framework; path = "Pods-StandingTimerAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9BD5FFBDDA50A58FA4D5D192547C66 /* Pods-StandingTimerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StandingTimerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F76F340BAC6E8C7F8F93380687CC5C5 /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
 		63D5CC61999C9B935C93FC2AFC22C2AF /* Pods-StandingTimerAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StandingTimerAppTests-dummy.m"; sourceTree = "<group>"; };
+		63E39F626CECE8054763EE639B4717A7 /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		69A84D5FD2A9E3A7B49719DB2A7434F4 /* Pods-StandingTimerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StandingTimerApp-frameworks.sh"; sourceTree = "<group>"; };
 		6A1D09E1FA90EBF8C6604DCF25C92303 /* Pods-StandingTimerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StandingTimerApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		78BCF6138F17B6B8563F296484E55127 /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
-		7DBF80E3539F7FB60745CA4577FACBD9 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
-		90A275B3A285F477A135778BD185B9D6 /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
-		90F659AA112ACEE8DB189C4BA369B56B /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		6CBD1AE6C8D20DE8D9A1597F22C6AE91 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		6D0DB645FF827D59CF74120C470774CD /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Library/Core/StringResource.swift; sourceTree = "<group>"; };
+		7440606A4037953D488009A716D9329A /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
+		7568E69E631FA1F3F6D942DAC0E12F4A /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
+		7CA6C78E0F417A66D2A8553697A03911 /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		845195FCA5EAC8134DDA3422ED51BD17 /* R.swift.Library-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R.swift.Library-Info.plist"; sourceTree = "<group>"; };
+		882F4F077631A7E43A94541AEC5A21F1 /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardViewControllerResource.swift; path = Library/Core/StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
+		8A2B45CA40808A2DA78988C6022950DD /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
+		8C1964CD324A825DD6890A6ACE50D660 /* R.swift.Library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-umbrella.h"; sourceTree = "<group>"; };
+		93FD874704D9D2538F690DE3EE8F8378 /* R.swift.Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.release.xcconfig; sourceTree = "<group>"; };
+		945BDBCBFA6D6D0E18DBAE0FB1434642 /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
 		95AF4AF5963E3F1A8486DBB9E53AE879 /* Pods-StandingTimerAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StandingTimerAppTests-umbrella.h"; sourceTree = "<group>"; };
+		97BF1F3DBDDA48B9F4A1B4FC99FA9092 /* UIFont+FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "Library/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0C87AF22E4D7F5F40D7EE2FEA5BD640 /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
-		A4C6C0EAD85E3BBD1A8E4D519109F090 /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
-		A5A8D78095FAD13600E3392AAA3FEAE6 /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
-		AB19C5A267935408AE327BBC08BEA817 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
-		AB728B89E474B00E040071D645C3A3ED /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		A0DE69A2480824A4ACBD83FCB1B6AF76 /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
+		AA1DB57F49B7670F803B9C1D98EA4687 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		ACC7CF063A42A0CA39EFC9104049A012 /* LGButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.release.xcconfig; sourceTree = "<group>"; };
+		AE8B2ABB6AA99FDF73DC3A25EB5B237B /* R.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.release.xcconfig; sourceTree = "<group>"; };
+		B2DED42C156D60032861BB7ACAD09734 /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
+		B3D74705A290C8F4C056F86A1A509B5A /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		B50ABB3BDBE8AD51DA06EB2BBEE5DE87 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
+		B80E7E05BFFA83A22F8F14504646846F /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; path = "Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
 		BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGButton.framework; path = LGButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF17DC7C8ABB65E809591ADE9F9AC783 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		C0A613E22DCD9FC3ABB01654BDC0081E /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		C3B44B0549A24CEC2C9B2251DAA2FAF5 /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
+		C42601B3622E79224CE64CD41D0C3D45 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		C49F41789BDB5F0ED05B16FFC925833C /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		C577224F7669EF154BDBAF3609C96D35 /* LGButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.debug.xcconfig; sourceTree = "<group>"; };
+		C640B27785F0888E5A801DA238653ACE /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-umbrella.h"; sourceTree = "<group>"; };
+		C8936D01245D12183DCC8D53C0AA0FFA /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
+		C919891165FE93A843DAA89C83FB9FD3 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Library/Core/Validatable.swift; sourceTree = "<group>"; };
+		C97E26EB58B61D4C575570319CB4906A /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
+		CA4E3B66CE4D02048C77392B64FD0ABB /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rswift.framework; path = R.swift.Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA09AC48A7188D0BEE461909E4DD0E0 /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardViewControllerResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
+		CD1DC4A5D04219CBDE8B4227F8BDCAEB /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
 		CEC535E267CB6140B206DCA6A1E6D0CE /* Pods-StandingTimerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandingTimerApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D2EF47E6D7656F4D640839100AA599BA /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		D38CBB311D545B74ACEDD5A5813AC4B6 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Library/Core/FontResource.swift; sourceTree = "<group>"; };
 		D5380FF1E3E060262B1907DC42F4D67D /* Pods-StandingTimerApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StandingTimerApp-Info.plist"; sourceTree = "<group>"; };
-		DAD8F359391573D6549D92B67E1B49E3 /* LGButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.debug.xcconfig; sourceTree = "<group>"; };
-		DAF7D16F6B20905B8A556D339F1D7592 /* LGButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGButton-Info.plist"; sourceTree = "<group>"; };
+		D5742DE31AC75D2AD07435B7986BCF3C /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
 		DD44213FAD1F486D7EB7D2650729CDB0 /* Pods-StandingTimerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandingTimerApp.release.xcconfig"; sourceTree = "<group>"; };
-		E07E88A6155BDB925A9652B2664F974E /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGButton.modulemap; sourceTree = "<group>"; };
-		E5AD8BAB3D5090AC4A3796F50EB03261 /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
+		E4C679941851BF3AACD2294EB510BCFA /* R.swift.Library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-prefix.pch"; sourceTree = "<group>"; };
 		E8602448A0FD464486167E94E8A79220 /* Pods-StandingTimerAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StandingTimerAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EC5B33CD47CFD0B9A002283ACE031E6B /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
+		E88627705153AE5525F0940E7D69F66E /* R.swift.Library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift.Library-dummy.m"; sourceTree = "<group>"; };
+		ED8C33E5D78B787FDBB2E43E8C7C7900 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		EEE4255817CD091DB9EB3359C74724AA /* R.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.debug.xcconfig; sourceTree = "<group>"; };
 		EF524D6C85236B98156B0F49B00417CF /* Pods-StandingTimerAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StandingTimerAppTests.modulemap"; sourceTree = "<group>"; };
-		FB93E2303A4534C18998BCE625B5C3EE /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-umbrella.h"; sourceTree = "<group>"; };
-		FC3F9D4C8D16BB4E89EAB8C267B92982 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		F1047F68926062B12A931DCCED124159 /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSegueIdentifierProtocol.swift; path = Library/Core/StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
+		F384626098A8A6A036B8F11CB45EA32C /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ImageResource.swift"; path = "Library/UIKit/UIImage+ImageResource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21160D6E02354A354280A963F8DD5634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B099B6B462DD4CED74173710737FDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DDF4B40C454C038371AE37121BF17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0531D2ECFAED1869832D1960366BF51D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4117C0A0C884E60DA50121C139C133BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,36 +239,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9F54C37998E5F93524328B5292E70D9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8F41764303BF5E5559E5A3EA1DD4682 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FC3F085341B48FE10054D37377EF310 /* LGButton */ = {
+		02DE690CE8EBB9779EBD705EB41E91EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF17DC7C8ABB65E809591ADE9F9AC783 /* FontAwesome.swift */,
-				E5AD8BAB3D5090AC4A3796F50EB03261 /* FontIon.swift */,
-				29A5C10857AC89D6ABCE3E2D6D24DAF8 /* FontLoader.swift */,
-				90A275B3A285F477A135778BD185B9D6 /* FontMap.swift */,
-				4904816F98B5C8B096F4A03AE2F1A071 /* FontMaterial.swift */,
-				A4C6C0EAD85E3BBD1A8E4D519109F090 /* FontOct.swift */,
-				A0C87AF22E4D7F5F40D7EE2FEA5BD640 /* FontOpenic.swift */,
-				A5A8D78095FAD13600E3392AAA3FEAE6 /* FontThemify.swift */,
-				5CA141D1F064A320E34D1DAA818787A5 /* LGButton.swift */,
-				D2EF47E6D7656F4D640839100AA599BA /* SwiftIconFont.swift */,
-				AB19C5A267935408AE327BBC08BEA817 /* SwiftIconLabel.swift */,
-				EF19BF38D9A211EC6C758A4F0A1180C3 /* Resources */,
-				E9E1FA25813D46EECCCE0A632D92C6EE /* Support Files */,
+				11A21035F9CD4A75EA36E3B520F7B0F2 /* LGButton */,
+				276A0201D64F492C8BA68938F117017A /* R.swift */,
+				EA899C239D11D420B40F9DDE48BF0706 /* R.swift.Library */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0D4A42DDE76F76218A26AE19996E7F46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C33E5D78B787FDBB2E43E8C7C7900 /* FontAwesome.ttf */,
+				1C330271111D04DD9AA8EE174FA237F6 /* Ionicons.ttf */,
+				343EFFF59EE36AD827F6DA5593BEE3CD /* LGButton.xib */,
+				2DF9D5F2468007A19186455E1C30A2C4 /* map-icons.ttf */,
+				AA1DB57F49B7670F803B9C1D98EA4687 /* MaterialIcons-Regular.ttf */,
+				CD1DC4A5D04219CBDE8B4227F8BDCAEB /* octicons.ttf */,
+				B3D74705A290C8F4C056F86A1A509B5A /* open-iconic.ttf */,
+				C42601B3622E79224CE64CD41D0C3D45 /* themify.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11A21035F9CD4A75EA36E3B520F7B0F2 /* LGButton */ = {
+			isa = PBXGroup;
+			children = (
+				6CBD1AE6C8D20DE8D9A1597F22C6AE91 /* FontAwesome.swift */,
+				182D18F9910DDAE35A8BB0AD3635848D /* FontIon.swift */,
+				2E4542EA794739F1FD8DC5895AB0070E /* FontLoader.swift */,
+				1AB45226E624B115C45ACEF0825ECDAC /* FontMap.swift */,
+				0BBE7F81EAFBFBD8165110EBBCA596AD /* FontMaterial.swift */,
+				18C611EF1D1757DF9C7E0F7EE1683506 /* FontOct.swift */,
+				C8936D01245D12183DCC8D53C0AA0FFA /* FontOpenic.swift */,
+				A0DE69A2480824A4ACBD83FCB1B6AF76 /* FontThemify.swift */,
+				B50ABB3BDBE8AD51DA06EB2BBEE5DE87 /* LGButton.swift */,
+				C49F41789BDB5F0ED05B16FFC925833C /* SwiftIconFont.swift */,
+				3FB4B76BEB07E2FCDDF45D4DC55AE246 /* SwiftIconLabel.swift */,
+				0D4A42DDE76F76218A26AE19996E7F46 /* Resources */,
+				4D8025EF26BE60D41AA9C01A3086537D /* Support Files */,
 			);
 			name = LGButton;
 			path = LGButton;
+			sourceTree = "<group>";
+		};
+		2466F8FC92A6A9FB1167A36B2B767616 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4255817CD091DB9EB3359C74724AA /* R.swift.debug.xcconfig */,
+				AE8B2ABB6AA99FDF73DC3A25EB5B237B /* R.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift";
+			sourceTree = "<group>";
+		};
+		276A0201D64F492C8BA68938F117017A /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				2466F8FC92A6A9FB1167A36B2B767616 /* Support Files */,
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		4D8025EF26BE60D41AA9C01A3086537D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B7A5ED6E1109DD4331721382F9647B8 /* LGButton.modulemap */,
+				7440606A4037953D488009A716D9329A /* LGButton-dummy.m */,
+				16FF3CFC2B12048B335DF4A02992488B /* LGButton-Info.plist */,
+				5F76F340BAC6E8C7F8F93380687CC5C5 /* LGButton-prefix.pch */,
+				C640B27785F0888E5A801DA238653ACE /* LGButton-umbrella.h */,
+				C577224F7669EF154BDBAF3609C96D35 /* LGButton.debug.xcconfig */,
+				ACC7CF063A42A0CA39EFC9104049A012 /* LGButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGButton";
 			sourceTree = "<group>";
 		};
 		4F043AA62286E24120065D0EFD41AD99 /* Pods-StandingTimerAppTests */ = {
@@ -179,16 +347,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9804657130CFB9044D3FA6CFEF0DAAD0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */,
-				2E1C1EED263F8D14E24F6C97736F23B5 /* Pods_StandingTimerApp.framework */,
-				5D695A921FC0EFD33C5A734326E0B910 /* Pods_StandingTimerAppTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9A3896BE25849F41C621E9ED1758D72C /* Pods-StandingTimerApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,14 +364,6 @@
 			path = "Target Support Files/Pods-StandingTimerApp";
 			sourceTree = "<group>";
 		};
-		AB40F9572D97EEA172B42068CBBBB8D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3FC3F085341B48FE10054D37377EF310 /* LGButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,8 +377,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AB40F9572D97EEA172B42068CBBBB8D6 /* Pods */,
-				9804657130CFB9044D3FA6CFEF0DAAD0 /* Products */,
+				02DE690CE8EBB9779EBD705EB41E91EA /* Pods */,
+				D3EE50ADBC1EA5D901B4591A947C6247 /* Products */,
 				97AFD0A396BF721A6431668067FC76C7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -241,39 +391,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E9E1FA25813D46EECCCE0A632D92C6EE /* Support Files */ = {
+		D3EE50ADBC1EA5D901B4591A947C6247 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E07E88A6155BDB925A9652B2664F974E /* LGButton.modulemap */,
-				78BCF6138F17B6B8563F296484E55127 /* LGButton-dummy.m */,
-				DAF7D16F6B20905B8A556D339F1D7592 /* LGButton-Info.plist */,
-				EC5B33CD47CFD0B9A002283ACE031E6B /* LGButton-prefix.pch */,
-				FB93E2303A4534C18998BCE625B5C3EE /* LGButton-umbrella.h */,
-				DAD8F359391573D6549D92B67E1B49E3 /* LGButton.debug.xcconfig */,
-				15FB93FAE4DA44BE68098AB78204DE66 /* LGButton.release.xcconfig */,
+				BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */,
+				2E1C1EED263F8D14E24F6C97736F23B5 /* Pods_StandingTimerApp.framework */,
+				5D695A921FC0EFD33C5A734326E0B910 /* Pods_StandingTimerAppTests.framework */,
+				CA4E3B66CE4D02048C77392B64FD0ABB /* Rswift.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LGButton";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		EF19BF38D9A211EC6C758A4F0A1180C3 /* Resources */ = {
+		D994D52750492808EE7D5356FC2178B5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DBF80E3539F7FB60745CA4577FACBD9 /* FontAwesome.ttf */,
-				1F0A488336FF126A324A37C67A092EB3 /* Ionicons.ttf */,
-				52BEA02043D5B17C53C06223606AFAFC /* LGButton.xib */,
-				25913690DAC475B37D706CBB01130EAB /* map-icons.ttf */,
-				FC3F9D4C8D16BB4E89EAB8C267B92982 /* MaterialIcons-Regular.ttf */,
-				23C6247BD16DBAD5EC89116163EFE74C /* octicons.ttf */,
-				90F659AA112ACEE8DB189C4BA369B56B /* open-iconic.ttf */,
-				AB728B89E474B00E040071D645C3A3ED /* themify.ttf */,
+				C3B44B0549A24CEC2C9B2251DAA2FAF5 /* R.swift.Library.modulemap */,
+				E88627705153AE5525F0940E7D69F66E /* R.swift.Library-dummy.m */,
+				845195FCA5EAC8134DDA3422ED51BD17 /* R.swift.Library-Info.plist */,
+				E4C679941851BF3AACD2294EB510BCFA /* R.swift.Library-prefix.pch */,
+				8C1964CD324A825DD6890A6ACE50D660 /* R.swift.Library-umbrella.h */,
+				20B78417E1C6BAE053DE40594B176BC3 /* R.swift.Library.debug.xcconfig */,
+				93FD874704D9D2538F690DE3EE8F8378 /* R.swift.Library.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/R.swift.Library";
+			sourceTree = "<group>";
+		};
+		EA899C239D11D420B40F9DDE48BF0706 /* R.swift.Library */ = {
+			isa = PBXGroup;
+			children = (
+				5B681A6661B12308A523DDCFD3321152 /* Bundle+FileResource.swift */,
+				8A2B45CA40808A2DA78988C6022950DD /* ColorResource.swift */,
+				5D075F4248840CFBFCAB13B502471F86 /* Data+FileResource.swift */,
+				7568E69E631FA1F3F6D942DAC0E12F4A /* FileResource.swift */,
+				D38CBB311D545B74ACEDD5A5813AC4B6 /* FontResource.swift */,
+				B2DED42C156D60032861BB7ACAD09734 /* Identifier.swift */,
+				041A34250637B14B491FB285AA69C7FD /* ImageResource.swift */,
+				C97E26EB58B61D4C575570319CB4906A /* NibResource.swift */,
+				4E1F8979A0DF9877AA9D62AA36C98DF2 /* NibResource+UIKit.swift */,
+				C0A613E22DCD9FC3ABB01654BDC0081E /* ReuseIdentifierProtocol.swift */,
+				5D1EE00E74360DB57D430A76C80AD59A /* StoryboardResource.swift */,
+				945BDBCBFA6D6D0E18DBAE0FB1434642 /* StoryboardResourceWithInitialController+UIKit.swift */,
+				F1047F68926062B12A931DCCED124159 /* StoryboardSegueIdentifierProtocol.swift */,
+				882F4F077631A7E43A94541AEC5A21F1 /* StoryboardViewControllerResource.swift */,
+				6D0DB645FF827D59CF74120C470774CD /* StringResource.swift */,
+				B80E7E05BFFA83A22F8F14504646846F /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
+				63E39F626CECE8054763EE639B4717A7 /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				338B92884250A235062E51614F82E0C0 /* UIColor+ColorResource.swift */,
+				97BF1F3DBDDA48B9F4A1B4FC99FA9092 /* UIFont+FontResource.swift */,
+				F384626098A8A6A036B8F11CB45EA32C /* UIImage+ImageResource.swift */,
+				409D019308326E8C5C471E20248B3B73 /* UINib+NibResource.swift */,
+				D5742DE31AC75D2AD07435B7986BCF3C /* UIStoryboard+StoryboardResource.swift */,
+				CCA09AC48A7188D0BEE461909E4DD0E0 /* UIStoryboard+StoryboardViewControllerResource.swift */,
+				7CA6C78E0F417A66D2A8553697A03911 /* UITableView+ReuseIdentifierProtocol.swift */,
+				276BFA81DF807F9558D2D4FD4A001718 /* UIViewController+NibResource.swift */,
+				0BC7EB0F6E7DAE81995CBD7D369E5373 /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+				C919891165FE93A843DAA89C83FB9FD3 /* Validatable.swift */,
+				D994D52750492808EE7D5356FC2178B5 /* Support Files */,
+			);
+			name = R.swift.Library;
+			path = R.swift.Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2B59BC6395FA729BF4ED8A0BC02D8390 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9994CF8E886BB1583C6983E7B50A1B /* Pods-StandingTimerApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A7778071296F90E0F126D3C47DAA0A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,11 +480,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFFFB077502EF3A92495735FA2DDC7DF /* Headers */ = {
+		FD2F104A86F2AE5EDBD3E682F8835F18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				711615F123BD7D66D38034DD6F003120 /* Pods-StandingTimerApp-umbrella.h in Headers */,
+				7D7EBD23329B0DEF17CFC16CC610B187 /* R.swift.Library-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,21 +512,41 @@
 		};
 		87AB16F7B313F7D6D23D25D484F66332 /* Pods-StandingTimerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E5250C8A3A28E340A7F26CB47F48F49 /* Build configuration list for PBXNativeTarget "Pods-StandingTimerApp" */;
+			buildConfigurationList = 9EB49C9797CCE5F752E7288C800F0C3E /* Build configuration list for PBXNativeTarget "Pods-StandingTimerApp" */;
 			buildPhases = (
-				FFFFB077502EF3A92495735FA2DDC7DF /* Headers */,
-				1C9B1C48338502F701B1FED5A4790ACA /* Sources */,
-				E9F54C37998E5F93524328B5292E70D9 /* Frameworks */,
-				7FB5235190FCA6240E2B4CD223BFE83B /* Resources */,
+				2B59BC6395FA729BF4ED8A0BC02D8390 /* Headers */,
+				B8B6B9303FD82EF3951BB41FD9B18B7A /* Sources */,
+				21160D6E02354A354280A963F8DD5634 /* Frameworks */,
+				CCE542F3C21F056B694DF111D6E923EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06D00028F543A1CEF52849A948E05AEA /* PBXTargetDependency */,
+				C2E1D1995BFA143A27FC1042AE11D903 /* PBXTargetDependency */,
+				8E6C6483B9179566CDFC03810160A478 /* PBXTargetDependency */,
+				8DCD957109C90D11AC09C40B035A6F25 /* PBXTargetDependency */,
 			);
 			name = "Pods-StandingTimerApp";
 			productName = "Pods-StandingTimerApp";
 			productReference = 2E1C1EED263F8D14E24F6C97736F23B5 /* Pods_StandingTimerApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D966A6E3B737E009252B4616EF68E0D /* Build configuration list for PBXNativeTarget "R.swift.Library" */;
+			buildPhases = (
+				FD2F104A86F2AE5EDBD3E682F8835F18 /* Headers */,
+				9F52BBE74F215CD219C080FE067D6C68 /* Sources */,
+				30DDF4B40C454C038371AE37121BF17A /* Frameworks */,
+				A7A1ABBCE9E4DF448D56127C415A5854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = R.swift.Library;
+			productName = R.swift.Library;
+			productReference = CA4E3B66CE4D02048C77392B64FD0ABB /* Rswift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */ = {
@@ -375,13 +585,15 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9804657130CFB9044D3FA6CFEF0DAAD0 /* Products */;
+			productRefGroup = D3EE50ADBC1EA5D901B4591A947C6247 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */,
 				87AB16F7B313F7D6D23D25D484F66332 /* Pods-StandingTimerApp */,
 				2FD24D52E5069C7AA8D98E4D555499DA /* Pods-StandingTimerAppTests */,
+				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
+				B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */,
 			);
 		};
 /* End PBXProject section */
@@ -402,14 +614,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FB5235190FCA6240E2B4CD223BFE83B /* Resources */ = {
+		8CB48CC6D696732AE187BF192BAA9F32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CB48CC6D696732AE187BF192BAA9F32 /* Resources */ = {
+		A7A1ABBCE9E4DF448D56127C415A5854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE542F3C21F056B694DF111D6E923EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -419,14 +638,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C9B1C48338502F701B1FED5A4790ACA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7071BCA8E966F70F37E500C32EE36886 /* Pods-StandingTimerApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		70219176BA49B29EFD79D5600A50F05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,6 +657,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F52BBE74F215CD219C080FE067D6C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6728F02A59EF3FD0B8D5BA464A2E00 /* Bundle+FileResource.swift in Sources */,
+				EDCFC5B0AD3CA4514BA167968CC3FCE1 /* ColorResource.swift in Sources */,
+				5B5D6303E6BD4A611F64D519A76B6849 /* Data+FileResource.swift in Sources */,
+				680AEC5E7C049F327CD07A09642E14CC /* FileResource.swift in Sources */,
+				E2E23A0BA2E6DECE6B80040989C81C9D /* FontResource.swift in Sources */,
+				BC943CA2CF08DB3B4D23C7273596624C /* Identifier.swift in Sources */,
+				B5A4512E966A04C9477A257142745DD5 /* ImageResource.swift in Sources */,
+				A372DEE1A3AFC1D2F84B90AE14EED4BA /* NibResource+UIKit.swift in Sources */,
+				787C2D5A903E84974D32122E3BC7271F /* NibResource.swift in Sources */,
+				833F08FCFFEB5655316F591B65BE0745 /* R.swift.Library-dummy.m in Sources */,
+				085E1345CDD6E0200D5F926CF4E4C081 /* ReuseIdentifierProtocol.swift in Sources */,
+				AD1FD4609566517C6973D925E621A80B /* StoryboardResource.swift in Sources */,
+				B41DF244ABE936F746A29A4B001E50D3 /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
+				0A0218B7E7032F88E95372A33D0E59FA /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				EE9C49ECB0513F8E45259AE810731A42 /* StoryboardViewControllerResource.swift in Sources */,
+				8C58EEF353181356477F0633458B0E6D /* StringResource.swift in Sources */,
+				418F6F68F387AE0ACE8F5CB02B0F0A4C /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
+				13461A2FE7D1733253DDAAE91F5133A7 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
+				9F2F94EFB17237C6156DA668CB5A151A /* UIColor+ColorResource.swift in Sources */,
+				EDB09FEF14F948C58491AD459C55829C /* UIFont+FontResource.swift in Sources */,
+				2190C724BFC6EBDB60D55F429C30CA68 /* UIImage+ImageResource.swift in Sources */,
+				273C8549B316E7A19B65447D08392FCB /* UINib+NibResource.swift in Sources */,
+				78FEB707F4316AB0B6DAC1B0A54782CE /* UIStoryboard+StoryboardResource.swift in Sources */,
+				B1E2FA42DF4AC1C67A92CA1E1C060A33 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				71B273E749EEA83662770BC064B232E4 /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				28F6DC2DB83FA6A599F2731697A093F1 /* UIViewController+NibResource.swift in Sources */,
+				DDCCDA0CC4F6901364FFA98C9D878CF0 /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				B2A5CE8CD682CB685687143831B6B240 /* Validatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B6B9303FD82EF3951BB41FD9B18B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6718FABA6AFE7E2A2E26D341A6CD7 /* Pods-StandingTimerApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCE7F86A8F60649096F0CD0A5A4214DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,11 +711,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06D00028F543A1CEF52849A948E05AEA /* PBXTargetDependency */ = {
+		4C96BD147A28C219742913509A3A6065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LGButton;
-			target = FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */;
-			targetProxy = 48C35182AB48B3E1C43EFCA59B663D7D /* PBXContainerItemProxy */;
+			name = R.swift.Library;
+			target = B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */;
+			targetProxy = 1F0ACA2E2CAC4C39619D3CD6F4CDA62F /* PBXContainerItemProxy */;
+		};
+		8DCD957109C90D11AC09C40B035A6F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			target = B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */;
+			targetProxy = 464947F175805C48F303C877BB14DDA4 /* PBXContainerItemProxy */;
+		};
+		8E6C6483B9179566CDFC03810160A478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			target = 230984053C6652DFF510F450F21C5CF7 /* R.swift */;
+			targetProxy = 60CB98B809A0A4ADE198794C5DEC3B4F /* PBXContainerItemProxy */;
 		};
 		980E68E0347C9BCC333654B321D44B6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -469,15 +735,19 @@
 			target = 87AB16F7B313F7D6D23D25D484F66332 /* Pods-StandingTimerApp */;
 			targetProxy = 80CD4DAD89C7C4ED7CA56AD43F8766FF /* PBXContainerItemProxy */;
 		};
+		C2E1D1995BFA143A27FC1042AE11D903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGButton;
+			target = FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */;
+			targetProxy = D0DA6EE6C262A36A7049E4665274F985 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09A924C0289ED68AC9FDFACCF29CA2A5 /* Release */ = {
+		0663BE3958580254230251D28585F880 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD44213FAD1F486D7EB7D2650729CDB0 /* Pods-StandingTimerApp.release.xcconfig */;
+			baseConfigurationReference = 93FD874704D9D2538F690DE3EE8F8378 /* R.swift.Library.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -487,23 +757,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/R.swift.Library-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				PRODUCT_MODULE_NAME = Rswift;
+				PRODUCT_NAME = Rswift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,43 +904,40 @@
 			};
 			name = Debug;
 		};
-		89B9AE418EAB21F966D0E52E2FE93369 /* Release */ = {
+		5232A244AFD9AA9D4A40F6DA583AC311 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15FB93FAE4DA44BE68098AB78204DE66 /* LGButton.release.xcconfig */;
+			baseConfigurationReference = AE8B2ABB6AA99FDF73DC3A25EB5B237B /* R.swift.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LGButton/LGButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/LGButton/LGButton.modulemap";
-				PRODUCT_MODULE_NAME = LGButton;
-				PRODUCT_NAME = LGButton;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C4528A23943ECA945047690E1FFBC70E /* Debug */ = {
+		5828A8DDDC35B81F5D5EEEE11F1C9D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE4255817CD091DB9EB3359C74724AA /* R.swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69CF515028253415389DA34B875141B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEC535E267CB6140B206DCA6A1E6D0CE /* Pods-StandingTimerApp.debug.xcconfig */;
 			buildSettings = {
@@ -709,9 +975,119 @@
 			};
 			name = Debug;
 		};
+		72370396F89A54C91FAB759E951C4912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD44213FAD1F486D7EB7D2650729CDB0 /* Pods-StandingTimerApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B4B4BCE35586FD1E22CD0ED80260E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B78417E1C6BAE053DE40594B176BC3 /* R.swift.Library.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/R.swift.Library-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				PRODUCT_MODULE_NAME = Rswift;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89B9AE418EAB21F966D0E52E2FE93369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC7CF063A42A0CA39EFC9104049A012 /* LGButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGButton/LGButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LGButton/LGButton.modulemap";
+				PRODUCT_MODULE_NAME = LGButton;
+				PRODUCT_NAME = LGButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D34E55C7579BE82C57209D07265AF91B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD8F359391573D6549D92B67E1B49E3 /* LGButton.debug.xcconfig */;
+			baseConfigurationReference = C577224F7669EF154BDBAF3609C96D35 /* LGButton.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -824,6 +1200,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D966A6E3B737E009252B4616EF68E0D /* Build configuration list for PBXNativeTarget "R.swift.Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4B4BCE35586FD1E22CD0ED80260E7B /* Debug */,
+				0663BE3958580254230251D28585F880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -842,11 +1227,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E5250C8A3A28E340A7F26CB47F48F49 /* Build configuration list for PBXNativeTarget "Pods-StandingTimerApp" */ = {
+		9EB49C9797CCE5F752E7288C800F0C3E /* Build configuration list for PBXNativeTarget "Pods-StandingTimerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4528A23943ECA945047690E1FFBC70E /* Debug */,
-				09A924C0289ED68AC9FDFACCF29CA2A5 /* Release */,
+				69CF515028253415389DA34B875141B4 /* Debug */,
+				72370396F89A54C91FAB759E951C4912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -856,6 +1241,15 @@
 			buildConfigurations = (
 				D34E55C7579BE82C57209D07265AF91B /* Debug */,
 				89B9AE418EAB21F966D0E52E2FE93369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81301507BDC78889669A641852E3BFE /* Build configuration list for PBXAggregateTarget "R.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5828A8DDDC35B81F5D5EEEE11F1C9D5B /* Debug */,
+				5232A244AFD9AA9D4A40F6DA583AC311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
