@@ -11,6 +11,14 @@
 		C9860002247A293000E1FAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9860001247A293000E1FAAD /* Assets.xcassets */; };
 		C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9860003247A293000E1FAAD /* LaunchScreen.storyboard */; };
 		C9860010247A293000E1FAAD /* StandingTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */; };
+		C986001B247A2F9B00E1FAAD /* FontAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C986001A247A2F9B00E1FAAD /* FontAssets.xcassets */; };
+		C9860032247A30D600E1FAAD /* mplus-2p-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */; };
+		C9860033247A30D900E1FAAD /* mplus-2p-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002B247A30C000E1FAAD /* mplus-2p-bold.ttf */; };
+		C9860034247A30DE00E1FAAD /* mplus-2p-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */; };
+		C9860035247A30DE00E1FAAD /* mplus-2p-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */; };
+		C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */; };
+		C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */; };
+		C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */; };
 		C986FFF9247A292E00E1FAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFF8247A292E00E1FAAD /* AppDelegate.swift */; };
 		C986FFFB247A292E00E1FAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */; };
 		C986FFFD247A292E00E1FAAD /* SettingTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */; };
@@ -33,6 +41,14 @@
 		C986000B247A293000E1FAAD /* StandingTimerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandingTimerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingTimerAppTests.swift; sourceTree = "<group>"; };
 		C9860011247A293000E1FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C986001A247A2F9B00E1FAAD /* FontAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FontAssets.xcassets; sourceTree = "<group>"; };
+		C986002B247A30C000E1FAAD /* mplus-2p-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-bold.ttf"; sourceTree = "<group>"; };
+		C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-thin.ttf"; sourceTree = "<group>"; };
+		C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-medium.ttf"; sourceTree = "<group>"; };
+		C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-regular.ttf"; sourceTree = "<group>"; };
+		C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-heavy.ttf"; sourceTree = "<group>"; };
+		C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-black.ttf"; sourceTree = "<group>"; };
+		C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-light.ttf"; sourceTree = "<group>"; };
 		C986FFF5247A292E00E1FAAD /* StandingTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandingTimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C986FFF8247A292E00E1FAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +83,20 @@
 			path = StandingTimerAppTests;
 			sourceTree = "<group>";
 		};
+		C986002A247A30B600E1FAAD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */,
+				C986002B247A30C000E1FAAD /* mplus-2p-bold.ttf */,
+				C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */,
+				C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */,
+				C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */,
+				C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */,
+				C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C986FFEC247A292E00E1FAAD = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,7 @@
 		C986FFF7247A292E00E1FAAD /* StandingTimerApp */ = {
 			isa = PBXGroup;
 			children = (
+				C986002A247A30B600E1FAAD /* Fonts */,
 				C986FFF8247A292E00E1FAAD /* AppDelegate.swift */,
 				C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */,
 				C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */,
@@ -95,6 +126,7 @@
 				C9860001247A293000E1FAAD /* Assets.xcassets */,
 				C9860003247A293000E1FAAD /* LaunchScreen.storyboard */,
 				C9860006247A293000E1FAAD /* Info.plist */,
+				C986001A247A2F9B00E1FAAD /* FontAssets.xcassets */,
 			);
 			path = StandingTimerApp;
 			sourceTree = "<group>";
@@ -188,8 +220,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */,
+				C986001B247A2F9B00E1FAAD /* FontAssets.xcassets in Resources */,
+				C9860032247A30D600E1FAAD /* mplus-2p-black.ttf in Resources */,
+				C9860035247A30DE00E1FAAD /* mplus-2p-light.ttf in Resources */,
 				C9860002247A293000E1FAAD /* Assets.xcassets in Resources */,
+				C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */,
+				C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */,
 				C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */,
+				C9860034247A30DE00E1FAAD /* mplus-2p-heavy.ttf in Resources */,
+				C9860033247A30D900E1FAAD /* mplus-2p-bold.ttf in Resources */,
+				C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
