@@ -43,6 +43,17 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>SettingTimer</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>mplus-2p-black.ttf</string>
+		<string>mplus-2p-bold.ttf</string>
+		<string>mplus-2p-heavy.ttf</string>
+		<string>mplus-2p-light.ttf</string>
+		<string>mplus-2p-light.ttf</string>
+		<string>mplus-2p-medium.ttf</string>
+		<string>mplus-2p-regular.ttf</string>
+		<string>mplus-2p-thin.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
