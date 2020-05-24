@@ -3,17 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94EDD2C60FBA8B3F52E0AFEE /* Pods_StandingTimerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5274A57584D27658B7472F65 /* Pods_StandingTimerAppTests.framework */; };
 		C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */; };
-		C9860002247A293000E1FAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9860001247A293000E1FAAD /* Assets.xcassets */; };
 		C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9860003247A293000E1FAAD /* LaunchScreen.storyboard */; };
 		C9860010247A293000E1FAAD /* StandingTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */; };
+		C986001B247A2F9B00E1FAAD /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C986001A247A2F9B00E1FAAD /* Image.xcassets */; };
+		C9860032247A30D600E1FAAD /* mplus-2p-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */; };
+		C9860033247A30D900E1FAAD /* mplus-2p-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002B247A30C000E1FAAD /* mplus-2p-bold.ttf */; };
+		C9860034247A30DE00E1FAAD /* mplus-2p-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */; };
+		C9860035247A30DE00E1FAAD /* mplus-2p-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */; };
+		C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */; };
+		C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */; };
+		C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */; };
+		C986003B247A3E1200E1FAAD /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986003A247A3E1200E1FAAD /* R.generated.swift */; };
 		C986FFF9247A292E00E1FAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFF8247A292E00E1FAAD /* AppDelegate.swift */; };
 		C986FFFB247A292E00E1FAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */; };
 		C986FFFD247A292E00E1FAAD /* SettingTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */; };
+		D7D2DB8ED8F9A3E098727B25 /* Pods_StandingTimerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4601563820B2016CBA1412 /* Pods_StandingTimerApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +37,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9860001247A293000E1FAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5274A57584D27658B7472F65 /* Pods_StandingTimerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandingTimerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA030966CCEA32F022B3F35 /* Pods-StandingTimerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerApp.debug.xcconfig"; path = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		61DB79F98A4FB749A02AD4A2 /* Pods-StandingTimerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerAppTests.release.xcconfig"; path = "Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A625CDA9102BDC1C24BD2FD /* Pods-StandingTimerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4601563820B2016CBA1412 /* Pods_StandingTimerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandingTimerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9860004247A293000E1FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9860006247A293000E1FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C986000B247A293000E1FAAD /* StandingTimerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandingTimerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingTimerAppTests.swift; sourceTree = "<group>"; };
 		C9860011247A293000E1FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C986001A247A2F9B00E1FAAD /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		C986002B247A30C000E1FAAD /* mplus-2p-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-bold.ttf"; sourceTree = "<group>"; };
+		C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-thin.ttf"; sourceTree = "<group>"; };
+		C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-medium.ttf"; sourceTree = "<group>"; };
+		C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-regular.ttf"; sourceTree = "<group>"; };
+		C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-heavy.ttf"; sourceTree = "<group>"; };
+		C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-black.ttf"; sourceTree = "<group>"; };
+		C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-light.ttf"; sourceTree = "<group>"; };
+		C986003A247A3E1200E1FAAD /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = StandingTimerApp/R.generated.swift; sourceTree = SOURCE_ROOT; };
 		C986FFF5247A292E00E1FAAD /* StandingTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandingTimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C986FFF8247A292E00E1FAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTimerViewController.swift; sourceTree = "<group>"; };
 		C986FFFF247A292E00E1FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SettingTimer.storyboard; sourceTree = "<group>"; };
+		EB163F041670D852B5003784 /* Pods-StandingTimerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerApp.release.xcconfig"; path = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EDD2C60FBA8B3F52E0AFEE /* Pods_StandingTimerAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,12 +77,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D2DB8ED8F9A3E098727B25 /* Pods_StandingTimerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B285847320B92E57B07E6E3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA030966CCEA32F022B3F35 /* Pods-StandingTimerApp.debug.xcconfig */,
+				EB163F041670D852B5003784 /* Pods-StandingTimerApp.release.xcconfig */,
+				6A625CDA9102BDC1C24BD2FD /* Pods-StandingTimerAppTests.debug.xcconfig */,
+				61DB79F98A4FB749A02AD4A2 /* Pods-StandingTimerAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C986000E247A293000E1FAAD /* StandingTimerAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,12 +104,45 @@
 			path = StandingTimerAppTests;
 			sourceTree = "<group>";
 		};
+		C986002A247A30B600E1FAAD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */,
+				C986002B247A30C000E1FAAD /* mplus-2p-bold.ttf */,
+				C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */,
+				C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */,
+				C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */,
+				C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */,
+				C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C986003C247A4BED00E1FAAD /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C986003D247A4BF600E1FAAD /* SettingTimer */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C986003D247A4BF600E1FAAD /* SettingTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */,
+				C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */,
+			);
+			path = SettingTimer;
+			sourceTree = "<group>";
+		};
 		C986FFEC247A292E00E1FAAD = {
 			isa = PBXGroup;
 			children = (
 				C986FFF7247A292E00E1FAAD /* StandingTimerApp */,
 				C986000E247A293000E1FAAD /* StandingTimerAppTests */,
 				C986FFF6247A292E00E1FAAD /* Products */,
+				B285847320B92E57B07E6E3D /* Pods */,
+				DFD41586127C9455E16C4AEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,15 +158,25 @@
 		C986FFF7247A292E00E1FAAD /* StandingTimerApp */ = {
 			isa = PBXGroup;
 			children = (
+				C986003C247A4BED00E1FAAD /* Module */,
+				C986003A247A3E1200E1FAAD /* R.generated.swift */,
+				C986002A247A30B600E1FAAD /* Fonts */,
 				C986FFF8247A292E00E1FAAD /* AppDelegate.swift */,
 				C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */,
-				C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */,
-				C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */,
-				C9860001247A293000E1FAAD /* Assets.xcassets */,
 				C9860003247A293000E1FAAD /* LaunchScreen.storyboard */,
 				C9860006247A293000E1FAAD /* Info.plist */,
+				C986001A247A2F9B00E1FAAD /* Image.xcassets */,
 			);
 			path = StandingTimerApp;
+			sourceTree = "<group>";
+		};
+		DFD41586127C9455E16C4AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4601563820B2016CBA1412 /* Pods_StandingTimerApp.framework */,
+				5274A57584D27658B7472F65 /* Pods_StandingTimerAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9860017247A293000E1FAAD /* Build configuration list for PBXNativeTarget "StandingTimerAppTests" */;
 			buildPhases = (
+				D55824959CD009218F574A17 /* [CP] Check Pods Manifest.lock */,
 				C9860007247A293000E1FAAD /* Sources */,
 				C9860008247A293000E1FAAD /* Frameworks */,
 				C9860009247A293000E1FAAD /* Resources */,
@@ -124,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9860014247A293000E1FAAD /* Build configuration list for PBXNativeTarget "StandingTimerApp" */;
 			buildPhases = (
+				82A4E5F1CCEFDFC581479A36 /* [CP] Check Pods Manifest.lock */,
+				C9860039247A3D5800E1FAAD /* ShellScript */,
 				C986FFF1247A292E00E1FAAD /* Sources */,
 				C986FFF2247A292E00E1FAAD /* Frameworks */,
 				C986FFF3247A292E00E1FAAD /* Resources */,
+				50193D3F2D53C87D77A4E550 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,12 +272,102 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */,
-				C9860002247A293000E1FAAD /* Assets.xcassets in Resources */,
+				C986001B247A2F9B00E1FAAD /* Image.xcassets in Resources */,
+				C9860032247A30D600E1FAAD /* mplus-2p-black.ttf in Resources */,
+				C9860035247A30DE00E1FAAD /* mplus-2p-light.ttf in Resources */,
+				C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */,
+				C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */,
 				C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */,
+				C9860034247A30DE00E1FAAD /* mplus-2p-heavy.ttf in Resources */,
+				C9860033247A30D900E1FAAD /* mplus-2p-bold.ttf in Resources */,
+				C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50193D3F2D53C87D77A4E550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A4E5F1CCEFDFC581479A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StandingTimerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9860039247A3D5800E1FAAD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		D55824959CD009218F574A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StandingTimerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9860007247A293000E1FAAD /* Sources */ = {
@@ -211,6 +385,7 @@
 				C986FFFD247A292E00E1FAAD /* SettingTimerViewController.swift in Sources */,
 				C986FFF9247A292E00E1FAAD /* AppDelegate.swift in Sources */,
 				C986FFFB247A292E00E1FAAD /* SceneDelegate.swift in Sources */,
+				C986003B247A3E1200E1FAAD /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +535,7 @@
 		};
 		C9860015247A293000E1FAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA030966CCEA32F022B3F35 /* Pods-StandingTimerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +555,7 @@
 		};
 		C9860016247A293000E1FAAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB163F041670D852B5003784 /* Pods-StandingTimerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +575,7 @@
 		};
 		C9860018247A293000E1FAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A625CDA9102BDC1C24BD2FD /* Pods-StandingTimerAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -420,6 +598,7 @@
 		};
 		C9860019247A293000E1FAAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DB79F98A4FB749A02AD4A2 /* Pods-StandingTimerAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
