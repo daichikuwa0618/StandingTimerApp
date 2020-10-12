@@ -20,6 +20,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>mplus-2p-black.ttf</string>
+		<string>mplus-2p-bold.ttf</string>
+		<string>mplus-2p-heavy.ttf</string>
+		<string>mplus-2p-light.ttf</string>
+		<string>mplus-2p-light.ttf</string>
+		<string>mplus-2p-medium.ttf</string>
+		<string>mplus-2p-regular.ttf</string>
+		<string>mplus-2p-thin.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -34,7 +45,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>SettingTimer</string>
+					<string>Main</string>
 				</dict>
 			</array>
 		</dict>
@@ -42,18 +53,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>SettingTimer</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>mplus-2p-black.ttf</string>
-		<string>mplus-2p-bold.ttf</string>
-		<string>mplus-2p-heavy.ttf</string>
-		<string>mplus-2p-light.ttf</string>
-		<string>mplus-2p-light.ttf</string>
-		<string>mplus-2p-medium.ttf</string>
-		<string>mplus-2p-regular.ttf</string>
-		<string>mplus-2p-thin.ttf</string>
-	</array>
+	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

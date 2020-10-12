@@ -1,5 +1,5 @@
 //
-//  SettingTimerViewController.swift
+//  MainViewController.swift
 //  StandingTimerApp
 //
 //  Created by Daichi Hayashi on 2020/05/24.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingTimerViewController: UIViewController {
+class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

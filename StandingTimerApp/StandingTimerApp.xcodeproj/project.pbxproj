@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94EDD2C60FBA8B3F52E0AFEE /* Pods_StandingTimerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5274A57584D27658B7472F65 /* Pods_StandingTimerAppTests.framework */; };
-		C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */; };
+		C9860000247A292E00E1FAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986FFFE247A292E00E1FAAD /* Main.storyboard */; };
 		C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9860003247A293000E1FAAD /* LaunchScreen.storyboard */; };
 		C9860010247A293000E1FAAD /* StandingTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */; };
 		C986001B247A2F9B00E1FAAD /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C986001A247A2F9B00E1FAAD /* Image.xcassets */; };
@@ -19,10 +19,9 @@
 		C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002D247A30C000E1FAAD /* mplus-2p-medium.ttf */; };
 		C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002E247A30C100E1FAAD /* mplus-2p-regular.ttf */; };
 		C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C986002C247A30C000E1FAAD /* mplus-2p-thin.ttf */; };
-		C986003B247A3E1200E1FAAD /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986003A247A3E1200E1FAAD /* R.generated.swift */; };
 		C986FFF9247A292E00E1FAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFF8247A292E00E1FAAD /* AppDelegate.swift */; };
 		C986FFFB247A292E00E1FAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */; };
-		C986FFFD247A292E00E1FAAD /* SettingTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */; };
+		C986FFFD247A292E00E1FAAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FFFC247A292E00E1FAAD /* MainViewController.swift */; };
 		D7D2DB8ED8F9A3E098727B25 /* Pods_StandingTimerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4601563820B2016CBA1412 /* Pods_StandingTimerApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,12 +54,11 @@
 		C986002F247A30C100E1FAAD /* mplus-2p-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-heavy.ttf"; sourceTree = "<group>"; };
 		C9860030247A30C100E1FAAD /* mplus-2p-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-black.ttf"; sourceTree = "<group>"; };
 		C9860031247A30C100E1FAAD /* mplus-2p-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-2p-light.ttf"; sourceTree = "<group>"; };
-		C986003A247A3E1200E1FAAD /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = StandingTimerApp/R.generated.swift; sourceTree = SOURCE_ROOT; };
 		C986FFF5247A292E00E1FAAD /* StandingTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandingTimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C986FFF8247A292E00E1FAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTimerViewController.swift; sourceTree = "<group>"; };
-		C986FFFF247A292E00E1FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SettingTimer.storyboard; sourceTree = "<group>"; };
+		C986FFFC247A292E00E1FAAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C986FFFF247A292E00E1FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB163F041670D852B5003784 /* Pods-StandingTimerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerApp.release.xcconfig"; path = "Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,18 +119,18 @@
 		C986003C247A4BED00E1FAAD /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				C986003D247A4BF600E1FAAD /* SettingTimer */,
+				C986003D247A4BF600E1FAAD /* Main */,
 			);
 			path = Module;
 			sourceTree = "<group>";
 		};
-		C986003D247A4BF600E1FAAD /* SettingTimer */ = {
+		C986003D247A4BF600E1FAAD /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				C986FFFC247A292E00E1FAAD /* SettingTimerViewController.swift */,
-				C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */,
+				C986FFFC247A292E00E1FAAD /* MainViewController.swift */,
+				C986FFFE247A292E00E1FAAD /* Main.storyboard */,
 			);
-			path = SettingTimer;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		C986FFEC247A292E00E1FAAD = {
@@ -159,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				C986003C247A4BED00E1FAAD /* Module */,
-				C986003A247A3E1200E1FAAD /* R.generated.swift */,
 				C986002A247A30B600E1FAAD /* Fonts */,
 				C986FFF8247A292E00E1FAAD /* AppDelegate.swift */,
 				C986FFFA247A292E00E1FAAD /* SceneDelegate.swift */,
@@ -277,7 +274,7 @@
 				C9860035247A30DE00E1FAAD /* mplus-2p-light.ttf in Resources */,
 				C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */,
 				C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */,
-				C9860000247A292E00E1FAAD /* SettingTimer.storyboard in Resources */,
+				C9860000247A292E00E1FAAD /* Main.storyboard in Resources */,
 				C9860034247A30DE00E1FAAD /* mplus-2p-heavy.ttf in Resources */,
 				C9860033247A30D900E1FAAD /* mplus-2p-bold.ttf in Resources */,
 				C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */,
@@ -382,10 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C986FFFD247A292E00E1FAAD /* SettingTimerViewController.swift in Sources */,
+				C986FFFD247A292E00E1FAAD /* MainViewController.swift in Sources */,
 				C986FFF9247A292E00E1FAAD /* AppDelegate.swift in Sources */,
 				C986FFFB247A292E00E1FAAD /* SceneDelegate.swift in Sources */,
-				C986003B247A3E1200E1FAAD /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,12 +404,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		C986FFFE247A292E00E1FAAD /* SettingTimer.storyboard */ = {
+		C986FFFE247A292E00E1FAAD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C986FFFF247A292E00E1FAAD /* Base */,
 			);
-			name = SettingTimer.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
