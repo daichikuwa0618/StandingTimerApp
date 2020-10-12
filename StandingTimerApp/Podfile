@@ -8,10 +8,16 @@ target 'StandingTimerApp' do
   # Pods for StandingTimerApp
   pod 'LGButton'
   pod 'R.swift'
+  pod 'RxCocoa', '6.0.0-rc.1'
+  pod 'RxRelay', '6.0.0-rc.1'
+  pod 'RxSwift', '6.0.0-rc.1'
 
   target 'StandingTimerAppTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxBlocking', '6.0.0-rc.1'
+    pod 'RxTest', '6.0.0-rc.1'
   end
 
 end
+

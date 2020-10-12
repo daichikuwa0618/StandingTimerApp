@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		94EDD2C60FBA8B3F52E0AFEE /* Pods_StandingTimerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5274A57584D27658B7472F65 /* Pods_StandingTimerAppTests.framework */; };
+		C926641325346FAB006A6310 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926641225346FAB006A6310 /* TimerViewController.swift */; };
+		C926641925346FBA006A6310 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926641825346FBA006A6310 /* Timer.storyboard */; };
+		C926641D25347051006A6310 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926641C25347051006A6310 /* TimerViewModel.swift */; };
 		C9860000247A292E00E1FAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986FFFE247A292E00E1FAAD /* Main.storyboard */; };
 		C9860005247A293000E1FAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9860003247A293000E1FAAD /* LaunchScreen.storyboard */; };
 		C9860010247A293000E1FAAD /* StandingTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986000F247A293000E1FAAD /* StandingTimerAppTests.swift */; };
@@ -41,6 +44,9 @@
 		61DB79F98A4FB749A02AD4A2 /* Pods-StandingTimerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerAppTests.release.xcconfig"; path = "Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6A625CDA9102BDC1C24BD2FD /* Pods-StandingTimerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandingTimerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C4601563820B2016CBA1412 /* Pods_StandingTimerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandingTimerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C926641225346FAB006A6310 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		C926641825346FBA006A6310 /* Timer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		C926641C25347051006A6310 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		C9860004247A293000E1FAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9860006247A293000E1FAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C986000B247A293000E1FAAD /* StandingTimerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandingTimerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +99,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C926641025346F6D006A6310 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C926641125346F82006A6310 /* Timer */,
+				C986003D247A4BF600E1FAAD /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C926641125346F82006A6310 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				C926641825346FBA006A6310 /* Timer.storyboard */,
+				C926641225346FAB006A6310 /* TimerViewController.swift */,
+				C926641C25347051006A6310 /* TimerViewModel.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		C986000E247A293000E1FAAD /* StandingTimerAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +144,7 @@
 		C986003C247A4BED00E1FAAD /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				C986003D247A4BF600E1FAAD /* Main */,
+				C926641025346F6D006A6310 /* View */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -127,8 +152,8 @@
 		C986003D247A4BF600E1FAAD /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				C986FFFC247A292E00E1FAAD /* MainViewController.swift */,
 				C986FFFE247A292E00E1FAAD /* Main.storyboard */,
+				C986FFFC247A292E00E1FAAD /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -187,6 +212,7 @@
 				C9860007247A293000E1FAAD /* Sources */,
 				C9860008247A293000E1FAAD /* Frameworks */,
 				C9860009247A293000E1FAAD /* Resources */,
+				6556F6CB2683F8D20B12C8FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,6 +301,7 @@
 				C9860036247A30DE00E1FAAD /* mplus-2p-medium.ttf in Resources */,
 				C9860038247A30DE00E1FAAD /* mplus-2p-thin.ttf in Resources */,
 				C9860000247A292E00E1FAAD /* Main.storyboard in Resources */,
+				C926641925346FBA006A6310 /* Timer.storyboard in Resources */,
 				C9860034247A30DE00E1FAAD /* mplus-2p-heavy.ttf in Resources */,
 				C9860033247A30D900E1FAAD /* mplus-2p-bold.ttf in Resources */,
 				C9860037247A30DE00E1FAAD /* mplus-2p-regular.ttf in Resources */,
@@ -299,6 +326,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StandingTimerApp/Pods-StandingTimerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6556F6CB2683F8D20B12C8FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StandingTimerAppTests/Pods-StandingTimerAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		82A4E5F1CCEFDFC581479A36 /* [CP] Check Pods Manifest.lock */ = {
@@ -379,6 +423,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C926641D25347051006A6310 /* TimerViewModel.swift in Sources */,
+				C926641325346FAB006A6310 /* TimerViewController.swift in Sources */,
 				C986FFFD247A292E00E1FAAD /* MainViewController.swift in Sources */,
 				C986FFF9247A292E00E1FAAD /* AppDelegate.swift in Sources */,
 				C986FFFB247A292E00E1FAAD /* SceneDelegate.swift in Sources */,
